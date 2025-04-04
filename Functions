@@ -1,0 +1,16 @@
+When you use or call a function, a function is followed by parenthesis:
+
+print()
+int()
+str()
+etc.
+
+def stands for define. Used when defining our own function:
+
+def main():    #Defines main function
+    print("Hello, world!")
+
+
+main()    #Calls main
+
+
