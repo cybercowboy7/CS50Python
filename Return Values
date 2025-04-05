@@ -1,0 +1,20 @@
+Functions can produce two kinds of outputs:
+
+Return Values: Some value a function can pass to program to use later on in code
+- Make sure to store the return value in a variable
+
+Side Effects: Anything else that gets changed while function is running.
+
+emoticon = "V.V"
+
+def main():
+    global emoticon            #Can utilize global in order to modify emoticon which is a global variable
+    say("Is anyone there?")
+    emoticon = ":D"
+    say("Oh, hi!")
+
+def say(phrase):
+    print(phrase + " " + emoticon)
+
+
+main()
