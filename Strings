@@ -1,0 +1,51 @@
+- String is a sequence of characters
+
+- Create string via : 'Hello, World' OR "Hello, World"
+
+- Escaping:
+  mystring = 'It\'s an escaped quote!'
+  mystring2 = "I'm a so-called \"script kiddie\""
+
+- Multiline strings
+  '''This is line 1,
+  this is line 2,
+  this is line 3.'''
+
+- Escaped Sequences:
+  \n	    A newline (Newlines are generated with your return key). Advances to the next
+  \r	    Carriage return: takes you back to the start of the line, without advancing to the next line
+  \t	    A tab character
+  \\	    The slash character itself: because it is used as the start of escape sequences, we must escape this character, too. Python is quite forgiving if you forget to escape it, though.
+
+- String operations:
+  - in the REPL utilize mystring. and then hit tab to see a list of all sting operations
+
+  - Refer to docs for all string operations: https://docs.python.org/3/library/stdtypes.html#string-methods
+
+- Python string formatting with f-strings
+  - example: 
+my_age = 40
+f'My age is {my_age}'
+  - The f tells python to scan the string for curly braces. Inside the braces, we can put any python expression we want.
+
+
+- Quickly printing a variable:
+  name = "John"
+  age = 56
+  print(f"{name=}, {age=}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
