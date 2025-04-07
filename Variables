@@ -1,3 +1,33 @@
+- Variable stores information that can be referenced later on
+
+- Declaration syntax: Name = "Alex"
+
+- Variable Naming:
+    - Pick a name that descibes its contents
+    - Less abreviation and more granular
+    - Variable names must start with a letter or the underscore character and can not start with a number
+    - Names are case-sensitive
+    - Underscores are preferred over camelCase. Class names utilize camelCase
+
+- An expression is anything that python can evaluate to a value
+    - ex: 3 + 3
+
+- Variable Types:
+    - String
+    - boolean
+    - tuples
+    - integer
+    - float
+    - complex nubers
+    - lists
+    - ranges
+    - dictionaries
+    - sets
+
+
+
+
+
 def get_guess():
     guess = int(input("Enter a guess: ")
     return guess
